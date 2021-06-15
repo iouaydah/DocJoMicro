@@ -1,0 +1,1 @@
+This is in plain text: {{ $email_message }}
