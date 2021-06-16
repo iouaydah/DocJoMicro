@@ -31,5 +31,5 @@ COPY --chown=www:www . /var/www/selfservice
 USER www
 
 # Expose port 9000 and start php-fpm server
-EXPOSE 9002
-CMD ["php-fpm"]
+# EXPOSE 9002
+# CMD ["php-fpm"]
